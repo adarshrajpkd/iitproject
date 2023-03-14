@@ -1,0 +1,7 @@
+move multiple_movements.py into src--->open_manipulator_controller
+run catkin_make
+
+
+roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
+roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
+rosrun open_manipulator_controller multiple_movements.py
